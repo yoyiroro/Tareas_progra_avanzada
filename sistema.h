@@ -86,7 +86,7 @@ protected:
    
 public:
     Bus(std::string tipo, size_t asientos, std::string origen, std::string destino, int precio, int hora) {
-
+        assert(origen!=destino);
         assert(origen=="Santiago" || origen == "Rancagua" || origen== "Valparaiso" || origen=="La Serena");
         assert(destino=="Santiago" || destino == "Rancagua" || destino == "Valparaiso" || destino =="La Serena");    
         assert(tipo == "Semi-Cama" || tipo == "Salon-Cama" || tipo == "Premium    " );
