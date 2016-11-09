@@ -1,2 +1,1 @@
-# Tareas_progra_avanzada
-Todas las tareas de progra
+Tarea 1 de progra junto a su main
