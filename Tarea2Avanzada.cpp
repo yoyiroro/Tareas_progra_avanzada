@@ -55,7 +55,7 @@ public:
 	}
 
 	void formato(string &a){
-    	for(size_t i = a.size()-1; i !=-1 ;i--){
+    	for(int i = a.size()-1; i !=-1 ;i--){
     		if( ((int(a[i]) >= 33) && ((int(a[i]) <=64))) || ((int(a[i]) >= 91) && (int(a[i]) <= 96)) || (int(a[i]) >=123 && (int(a[i]) <=126))){
     			a.erase(a.begin()+i);
     		}
